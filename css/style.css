@@ -1,0 +1,124 @@
+.container{
+    margin: auto;
+    width: 100vh;
+    height: 100vh;
+    box-sizing: border-box;
+ 
+        }
+
+        .header
+        {
+            height: 25vh;
+            box-sizing: border-box;
+            background-color: #565656;
+            position: relative;
+            opacity: 0.8;
+        }
+
+        .circle{
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px dotted #FABE28;
+            margin-left: 40%;
+            margin-top: 15px;
+            max-width: 100%;
+
+        }
+
+        .band{
+            height: 30px;
+            width: 100%;
+            background-color: white;
+            position: absolute;
+            margin-top: 175px;
+        }
+
+        .nameBand{
+            width: 50%;
+            height: 75px;
+            background-color: #FBBD2A;
+            position: absolute;
+            margin-top: 150px;
+            margin-left: 22%;
+            border-radius: 10px;
+        }
+
+        .nameText{
+            text-align: center;
+            font-size: 46px;
+            margin-top: 10px;
+        }
+
+        .addressBand{
+            height: 30px;
+            width: 100%;
+            border: 0.5px dotted grey;
+        }
+
+        .addressText{
+            text-align: center;
+            font-size: 20px;
+            margin-top: 5px;
+        }
+
+        .leftContainer{
+    width: 45%;
+    box-sizing: border-box;
+    height: 100vh;
+    padding: 10px;
+    float: left;
+    margin-left: 10px;
+}
+
+.separator{
+    width: 5%;
+    box-sizing: border-box;
+    height: 1050px;
+    float: left;
+    border-left: 2px dotted #787878;
+    margin-left: 10px;
+   
+}
+
+.rightContainer{
+    width: 45%;
+    box-sizing: border-box;
+    height: 100vh;
+    float: left;
+}
+
+.circleIcon{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    border:1px dotted #FBBD2A
+}
+
+.greyCircle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    background-color:  #414342;
+    margin-top: 6px;
+    margin-left: 6px;
+    
+}
+
+.contentText{
+    text-align: justify;
+    margin: 0px 5px 0px 5px;
+}
+
+p{
+    font-size: 18px;
+}
+
+li{
+    font-size: 18px;
+}
+
+
